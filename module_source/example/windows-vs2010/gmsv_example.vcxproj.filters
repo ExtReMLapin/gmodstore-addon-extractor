@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{5989A779-36CD-6F4D-87AA-00008E6008FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{3B16E803-4386-334B-978A-1280EFDB3587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GarrysMod">
+      <UniqueIdentifier>{9C2F676C-41E2-3C48-BFEE-7435AC764EF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GarrysMod\Lua">
+      <UniqueIdentifier>{81C0465D-434C-A249-A60C-E849B374DA08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\miniz.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\zip.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GarrysMod\Lua\Interface.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GarrysMod\Lua\LuaBase.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GarrysMod\Lua\Types.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GarrysMod\Lua\UserData.h">
+      <Filter>include\GarrysMod\Lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\gm_example.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\zip.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
